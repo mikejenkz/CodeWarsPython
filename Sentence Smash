@@ -1,0 +1,10 @@
+def smash(words):
+    newString = ""
+    counter = 0
+    while counter < len(words):
+      newString += words[counter]
+      counter += 1
+      
+      if counter != len(words):
+        newString += " "
+    return (newString)
