@@ -1,0 +1,14 @@
+def fake_bin(x):
+  newString = ""
+  counter = 0
+
+  while counter < len(x):
+    if int(x[counter]) < 5:
+      newString += "0"
+
+    else:
+      newString += "1"
+
+    counter+=1
+
+  return (newString)
